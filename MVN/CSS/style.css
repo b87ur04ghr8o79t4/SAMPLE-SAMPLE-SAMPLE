@@ -1,0 +1,17 @@
+:root{
+    --main-color: linear-gradient(rgb(133, 232, 186),rgb(110, 234, 176),rgb(78, 230, 159))
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ruler{
+    margin: 15px 0px;
+    height: 10px;
+    width: 60vw;
+    background-image: var(--main-color); 
+    margin-left: 20vw;
+}
